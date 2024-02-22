@@ -1,0 +1,217 @@
+#second largest
+"""a=int(input())
+b=int(input())
+c=int(input())
+if a<b and b<c:
+    print(b)
+elif a<c:
+    print(a)
+else:
+    print(c)"""
+#first largest
+"""a=int(input())
+b=int(input())
+c=int(input())
+if a>b and a>c:
+    print(a)
+elif b>c:
+    print(b)
+else:
+    print(c)"""
+#biggest num
+"""a=int(input())
+b=int(input())
+if a>b:
+    print(a)
+else:
+    print(b)"""
+#smallest num
+"""a=int(input())
+b=int(input())
+if a<b:
+    print(a)
+else:
+    print(b)"""
+#hello world
+"""for i in range(0,1000):
+    print("Hello World")"""
+#small,large or equal
+"""a,b=map(int,input().split())
+if a > b:
+    print("a > b")
+elif a < b:
+    print("a < b")
+if a == b:
+    print("a == b")"""
+# construction of triangle
+"""a,b,c = map(int,input().split())
+if(a + b > c, b +c > a, c + a > b):
+    print("Yes")
+else:
+    print("No")"""
+#reverse number
+"""n=int(input())
+if n > 0:
+    res=0
+    while n>0:
+      r=n%10
+      res=res*10+n
+      n=n//10
+    print(res)
+elif n == 0:
+    print(n)
+else:
+    res=0
+    n=n*-1
+    while n>0:
+        r=n%10
+        res=res*10+n
+        n=n//10
+    print(-1*res)"""
+    
+#watermelon
+"""w=int(input())
+if w%2==0 and w!=2:
+    print("yes")
+else:
+    print("no")"""
+#fever
+"""a=int(input())
+if a>98:
+    print("yes")
+else:
+    print("no")"""
+#fever 1
+"""a=int(input())
+for i in range(a)
+    n=int(input())
+    if n>98:
+        print("yes")
+    else:
+        print("no")"""
+#fever 2
+"""a=int(input())
+while a>0:
+    n=int(input())
+    if n>98:
+        print("yes")
+    else:
+        print("no")
+    a=a-1"""
+#discount
+"""a=int(input("enter dis count:"))
+dis=a*100/100
+total=100-dis
+print(total)"""
+"""t=int(input("enter a number:"))
+for i in range(t):
+    n=int(input())
+    print(100-n)"""
+#tv discount
+"""t=int(input())
+a,b,c,d=map(int,input().split())
+x=a-c
+y=b-d
+if x<y:
+    print("first")
+elif x>y:
+    print("second")
+else:
+    print("any")"""
+#chocolates
+"""t=int(input())
+for i in range(t):
+    n,x=map(int,input().split())
+    if n>x:
+        k=n-x
+        if k%4==0:
+            print(k//4)
+        else:
+            print(k//4+1)
+    else:
+        print(0)"""
+#pizza x slices for all people
+"""t=int(input())
+for i in range(t):
+    n,x=map(int,input().split())
+    if x%4==0:
+        print(x//4)
+    else:
+        print(x//4+1)""" 
+#brute force code x slices for each person
+t=int(input())
+for i in range(t):
+    n,x=map(int,input().split())
+    ts=n*x
+    tp=0
+    while ts>4:
+        tp=tp+1
+        ts=ts-4
+    if tp==0:
+        print(tp)
+    else:
+        print(tp+1)
+            
+         
+        
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+    
+
+      
